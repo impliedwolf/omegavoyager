@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>incrementaltest</title>
+</head>
+<body>
+    <div id="distance">You have travelled 0 miles</div>
+    <div id="velocity">Your ship moves at 0 miles per second.</div>
+    <br>
+    <div id="diary">Log #1</div>
+    <div class="button" id="button1" onmousedown="colour(1)" onmouseup="nocolour(1)" onclick="jump()">perform a jump</div>
+    <div id="upgradebar1">
+        <div class="upgrade" id="upgrade1" onclick="buy1()">Propellor <br>Owned: 0<br>Cost: 60 space rock</div>
+        <div class="upgrade" id="upgrade2" onclick="buy2()">Jump Enhancement <br>Owned: 0<br>Cost: 1000 space rock</div>
+        <div class="upgrade" id="upgrade3" onclick="buy3()">Propellor Extension<br>Owned: 0<br>Cost: 96000 space rock</div>
+    </div>
+    <div id="spacerock">Space rock supply: 0oz.</div>
+    <div id="debug">?</div>
+    <script src="main.js"></script>
+</body>
+</html>

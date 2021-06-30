@@ -1,0 +1,86 @@
+#distance {
+    text-align: right;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1em;
+    margin-right: 1.1em;
+    color: #FFCC00
+}
+#velocity {
+    text-align: right;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0em;
+    margin-right: 2.2em;
+    color: #FFCC00
+}
+#spacerock {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCC00;
+    position: absolute;
+    right: 2.2em;
+    top: 23.2em;
+}
+
+.button {
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border: 2px solid #DD8800;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFCC00;
+    cursor: pointer;
+    position: absolute;
+    right: 2em;
+    top: 5.5em;
+}
+
+#upgradebar1 {
+    width: 400px;
+    height: 150px;
+    float: right;
+    overflow: scroll;
+    position: absolute;
+    right: 0em;
+    top: 13.4em;
+}
+
+.upgrade {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #DD8800;
+    border: 2px solid #112244;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    background-color: #223355;
+    cursor: pointer;
+    flex-wrap: wrap;
+    margin-right: 2em;
+}
+
+#diary {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCC00;
+    border: 2px solid #222244;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    overflow: scroll;
+    background-color: #332255;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+#debug {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCC00;
+    text-align: center;
+}
